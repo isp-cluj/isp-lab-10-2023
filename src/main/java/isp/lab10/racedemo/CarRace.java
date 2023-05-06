@@ -15,7 +15,7 @@ public class CarRace {
 
         frame.getContentPane().add(carPanel);
         frame.pack();
-        frame.setSize(500,500);
+        frame.setSize(500,300);
         frame.setVisible(true);
 
         Car car1 = new Car("Red car", carPanel);

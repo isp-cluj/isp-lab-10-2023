@@ -1,4 +1,4 @@
-# Lab 8 - Race Track
+# Lab 10 - Race Track
 
 ## Introduction
 In this lab you will create a very basic race simulation game using threads. 

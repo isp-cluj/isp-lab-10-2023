@@ -6,8 +6,12 @@ In this lab, you will develop a simple race simulation game using threads.
 ## Exercise 1
 Execute the Semaphore application and observe how a thread is created and started.
 
+![Image](/docs/semaphor.png)
+
 ## Exercise 2
 Examine the CarRace class and determine what is missing and which instructions need to be added in order to initiate a race for four cars that are created and ready to compete.
+
+![Image](/docs/race.png)
 
 ## Exercise 3
 Integrate Semaphore and CarRace so that the race begins when the semaphore turns green (i.e., when the Semaphore thread finishes execution). To implement this exercise, you will utilize the join() method.

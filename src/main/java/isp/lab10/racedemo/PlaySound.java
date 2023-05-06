@@ -18,7 +18,7 @@ public class PlaySound {
     void playSound() {
         try {
             clip = AudioSystem.getClip();
-            clip.open(AudioSystem.getAudioInputStream(new File("C:\\Users\\mihai\\Downloads\\shanghai-formula-1-grand-prix.wav")));
+            clip.open(AudioSystem.getAudioInputStream(new File(".\\shanghai-formula-1-grand-prix.wav")));
             clip.start();
         } catch (Exception e) {
             e.printStackTrace();

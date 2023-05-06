@@ -15,7 +15,7 @@ Integrate Semaphore and CarRace so that the race begins when the semaphore turns
 Starting with this exercise, work within the raceapp package. Copy the classes from the racedemo package into the raceapp package and make any necessary modifications.
 
 ## Exercise 4
-Modify the application from Exercise 3 so that a sound starts playing when the cars begin racing and stops when all cars have finished.
+Modify the application from Exercise 3 so that a sound starts playing when the cars begin racing and stops when all cars have finished. Project incorporate a sample audio file you can play and an example PlaySound class playing a sound.
 
 ## Exercise 6
 Incorporate a mechanism to detect and display (in text or graphical mode) the standings after the race has concluded and the race duration for each car.

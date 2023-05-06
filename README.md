@@ -1,24 +1,29 @@
 # Lab 10 - Race Track
 
 ## Introduction
-In this lab you will create a very basic race simulation game using threads. 
+In this lab, you will develop a simple race simulation game using threads.
 
 ## Exercise 1
-Run Semaphore application an observe how a thread is created and started. 
+Execute the Semaphore application and observe how a thread is created and started.
 
 ## Exercise 2
-Analyize CarRace class and idientify what is missing and what instructions you need to add in orther to start the race for 4 created and ready to race cars.
+Examine the CarRace class and determine what is missing and which instructions need to be added in order to initiate a race for four cars that are created and ready to compete.
 
-## Exercise 3 
-Put together Semaphore and CarRace so that race starts when semaphore is green (Semaphor thread has finised execution). For implementing this exercise you will use join() method. 
+## Exercise 3
+Integrate Semaphore and CarRace so that the race begins when the semaphore turns green (i.e., when the Semaphore thread finishes execution). To implement this exercise, you will utilize the join() method.
 
-Strating with this exercise you will work in raceapp package. Copy in the raceapp package the classes from racedemo package and do necessary changes there.
+Starting with this exercise, work within the raceapp package. Copy the classes from the racedemo package into the raceapp package and make any necessary modifications.
 
 ## Exercise 4
-Update application from exercise 3 so that sound start playing when cars start racing and stops when all cars finished.
+Modify the application from Exercise 3 so that a sound starts playing when the cars begin racing and stops when all cars have finished.
 
 ## Exercise 6
-Add a mechanism to detect and display (in text mode or graphical) the standing order after race finish and race duration for each of the car. 
+Incorporate a mechanism to detect and display (in text or graphical mode) the standings after the race has concluded and the race duration for each car.
 
-## Exercise 7 
-Create a thread which increment a timer (long variable each 10 miliseconds). The thread will be started when race start and will be stopped when race ends. After timer is stopped will display measured time.
+## Exercise 7
+Develop a thread that increments a timer (long variable) every 10 milliseconds. This thread will start when the race begins and stop when the race ends. Once the timer is stopped, display the measured time.
+
+
+
+
+

@@ -23,6 +23,7 @@ Modify the application from Exercise 3 so that a sound starts playing when the c
 
 ## Exercise 5
 Incorporate a mechanism to detect and display (in text or graphical mode) the standings after the race has concluded and the race duration for each car.
+Mark the _carFinished()_ method in the _CarPanel_ class as _synchronized_, and use it to compute the car order. 
 
 ## Exercise 6
 Develop a thread that increments a timer (long variable) every 10 milliseconds. This thread will start when the race begins and stop when the race ends. Once the timer is stopped, display the measured time.

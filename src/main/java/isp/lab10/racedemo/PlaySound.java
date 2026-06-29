@@ -18,7 +18,7 @@ public class PlaySound {
     void playSound() {
         try {
             clip = AudioSystem.getClip();
-            clip.open(AudioSystem.getAudioInputStream(new File(".\\shanghai-formula-1-grand-prix.wav")));
+            clip.open(AudioSystem.getAudioInputStream(new File("shanghai-formula-1-grand-prix.wav")));
             clip.start();
         } catch (Exception e) {
             e.printStackTrace();
@@ -29,7 +29,7 @@ public class PlaySound {
         if(clip!=null)
             clip.stop();
     }
-    
+
     public static void main(String[] args) throws InterruptedException {
         PlaySound ps = new PlaySound();
         ps.playSound();
